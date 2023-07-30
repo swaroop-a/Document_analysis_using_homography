@@ -45,6 +45,7 @@ Make sure to have the required libraries installed before running the code.
 ## Notes
 
 - Ensure that the images are accessible at the specified `image_path1` and `image_path2`.
+- The code attempts to find the transformation that aligns `image2` with `image1`, so make sure you have a good-quality image for `image1` which acts as a template image that makes the `image2` (input image) align the perspective of `image1` (template image).
 - The SIFT algorithm for image matching and the homography calculation may not work optimally for all types of images. Consider using different feature detection and matching algorithms based on your specific use case.
 - Adjust the coordinates in the `data` list to select the regions of interest for text extraction. The OCR accuracy may vary based on the quality and content of the input images.
 - PaddleOCR is used as an alternative OCR tool, but you can choose to use other OCR libraries or APIs based on your preferences and requirements.
