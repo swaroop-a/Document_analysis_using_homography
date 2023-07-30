@@ -24,7 +24,7 @@ Follow the steps below to implement the document analysis code:
 
 7. **Text Extraction**: The code extracts text from specific regions of the aligned image. You can specify the regions of interest in the `data` list by providing the coordinates (xmin, xmax, ymin, ymax) of each region and a label for identification.
 
-8. **Text Recognition**: The code uses Tesseract OCR to recognize text from the specified regions of interest. It also demonstrates using PaddleOCR for OCR, which can be an alternative for text recognition.
+8. **Text Recognition**: The code uses Tesseract OCR to recognize text from the specified regions of interest. 
 
 9. **Result Display**: The extracted text from each region of interest is printed for further analysis.
 
@@ -37,8 +37,6 @@ Follow the steps below to implement the document analysis code:
 - Pillow
 - pytesseract
 - tesseract-ocr
-- paddlepaddle
-- paddleocr
 
 Make sure to have the required libraries installed before running the code.
 
