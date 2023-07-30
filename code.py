@@ -109,8 +109,8 @@ def extract_text_from_image(image, data):
 
 def main():
     # Image paths
-    image_path1 = '/content/drive/MyDrive/CEVI/IIT Delhi/Document analysis/a29.jpg'
-    image_path2 = '/content/drive/MyDrive/CEVI/IIT Delhi/Document analysis/a38.jpg'
+    image_path1 = 'reference image path (template image/ perfectly alligned image)'
+    image_path2 = 'input image path (image for which we need to extract text)'
 
     # Load the images
     image1, image2 = load_images(image_path1, image_path2)
@@ -139,6 +139,7 @@ def main():
     cv2_imshow(result)
 
     # Extract text from warped image using custom data
+    # Change the labels and co-ordinates according to your usecase and image 
     data = [
         {
             'label': 'name hindi',
