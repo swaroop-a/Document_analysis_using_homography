@@ -10,13 +10,7 @@ Document analysis is an important task in computer vision that involves understa
 
 Follow the steps below to implement the document analysis code:
 
-1. **Install Required Libraries**: Ensure you have the necessary libraries installed to run the code. You can install the required libraries using the following commands:
-   ```
-   !pip install pytesseract
-   !apt-get install tesseract-ocr
-   !pip install paddlepaddle
-   !pip install paddleocr
-   ```
+1. **Install Required Libraries**: Ensure you have the necessary libraries installed to run the code.
 
 2. **Load Input Images**: Prepare two input images that you want to analyze. Update the `image_path1` and `image_path2` variables in the code with the respective paths to your images.
 
